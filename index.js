@@ -9,5 +9,5 @@ app.get("/", (req, res, next) => {
 });
 app.listen(port, () => {
  console.log("Server running on port 3000");
- console.log("Type < http://localhost:3000/xolb > in your browser");
+ console.log("Type < http://localhost:3000/ > in your browser");
 });
