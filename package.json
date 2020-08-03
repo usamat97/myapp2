@@ -1,10 +1,10 @@
 {
-  "name": "xolb",
+  "name": "xolbu",
   "version": "1.0.0",
   "description": "a test app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Usama Tariq",
   "license": "ISC",

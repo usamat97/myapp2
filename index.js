@@ -4,7 +4,7 @@ var port = process.env.PORT || 3000;
 
 console.log(process.env.PORT)
 console.log(port)
-app.get("/xolb", (req, res, next) => {
+app.get("/", (req, res, next) => {
  res.json({"id":1, "name":"Usama", "description":"Hero"});
 });
 app.listen(port, () => {
